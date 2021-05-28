@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipFramework", "ZipFramework\ZipFramework.csproj", "{69521CAB-2DF2-449D-AB74-D3DBB3122AB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24B87F30-691E-4912-82DE-B3E87DEA160B}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		ZipFramework.vsmdi = ZipFramework.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipTester", "ZipTester\ZipTester.csproj", "{9BC8A98D-DC9D-431B-AF0B-9200D8BC5507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69521CAB-2DF2-449D-AB74-D3DBB3122AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69521CAB-2DF2-449D-AB74-D3DBB3122AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69521CAB-2DF2-449D-AB74-D3DBB3122AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69521CAB-2DF2-449D-AB74-D3DBB3122AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC8A98D-DC9D-431B-AF0B-9200D8BC5507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC8A98D-DC9D-431B-AF0B-9200D8BC5507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC8A98D-DC9D-431B-AF0B-9200D8BC5507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC8A98D-DC9D-431B-AF0B-9200D8BC5507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

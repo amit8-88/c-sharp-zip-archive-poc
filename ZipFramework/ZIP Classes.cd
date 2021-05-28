@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ZipFramework.FileEntry">
+    <Position X="13.75" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BBCIBgAAAAAAASBAAQEAQEAAAAAAAEACEEBMEgAAgAA=</HashCode>
+      <FileName>FileEntry.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Header" />
+      <Property Name="CDHeader" />
+      <Property Name="FileBytes" />
+      <Property Name="Parent" />
+      <Property Name="DataDescriptor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ZipFramework.LocalFileHeader">
+    <Position X="7.75" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LocalFileHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.DataDescriptor">
+    <Position X="5" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAE=</HashCode>
+      <FileName>DataDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.CentralDirectoryFileHeader">
+    <Position X="10.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIQBAAAAQAAAAkAAAAAAgAAAAJAAQAAAAAAAAAQE=</HashCode>
+      <FileName>CentralDirectoryFileHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.ZIPObject">
+    <Position X="8.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZIPObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.HeaderBase">
+    <Position X="6.25" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HeaderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.DataHeaderBase">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAAAAABAAAAAQAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DataHeaderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.FileHeaderBase">
+    <Position X="9.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgAAAAAAAgAAgAAAAAAAAAAAQAEAIAABAAIA=</HashCode>
+      <FileName>FileHeaderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.GPBitFlag">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ZipFramework.GPBitFlag.GPBitFlags">
+        <TypeIdentifier>
+          <NewMemberFileName>GPBitFlag.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAKgAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GPBitFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.DOSDateTime">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAIBAAAAgAAAAAAAAAAAAgAAAgAAAAACggA=</HashCode>
+      <FileName>DOSDateTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.FileData">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAAAABAAAABAAAAAwAoAQBAEAYAIAAAGCAAAAAA=</HashCode>
+      <FileName>FileData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ZipFramework.ZIPFile">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAAIAAAAAABAAAAAAAEQAAABAgAAAAAA=</HashCode>
+      <FileName>ZIPFile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EndOfCentralDirectoryHeader" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ZipFramework.Test" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZipFramework.EndOfCentralDirectoryHeader">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIEAAIAAAAAAICAAgAAABABAAAIAAAAhAAIAAACE=</HashCode>
+      <FileName>EndOfCentralDirectoryHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ZipFramework.Method">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAIQAAAAgAAAAAAAAIAAIAQAAAAAAAAAAACQAAAIA=</HashCode>
+      <FileName>Method.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

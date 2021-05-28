@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="83c6428a-7d8c-4af4-b798-6271f78aa0e6" name="Neill Harper@HANK 2008-08-30 22:59:13" runUser="Hank\Neill Harper" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c10d0585-0e4e-439a-a046-2b34037a2119">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Neill Harper\Documents\Visual Studio 2008\Projects\ZipFramework\TestResults\Neill Harper_HANK 2008-08-30 22_59_13">
+      <DeploymentItem filename="C:\Users\Neill Harper\Documents\Visual Studio 2008\Projects\ZipFramework\ZipFramework\bin\Debug\ZipFramework.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-08-30T22:59:13.5417011+01:00" queuing="2008-08-30T22:59:19.0345136+01:00" start="2008-08-30T22:59:19.7053691+01:00" finish="2008-08-30T22:59:20.7834251+01:00" />
+  <TestDefinitions>
+    <UnitTest name="GetBitsTest" storage="c:\users\neill harper\documents\visual studio 2008\projects\zipframework\ziptest\bin\debug\ziptest.dll" id="74de8c0d-46f3-3330-b474-6b68b8f2f14f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="ZipFramework.dll" />
+      </DeploymentItems>
+      <Execution id="54e66723-0652-4d10-a715-2301e94d4233" />
+      <TestMethod codeBase="C:\Users\Neill Harper\Documents\Visual Studio 2008\Projects\ZipFramework\ZipTest\bin\Debug\ZipTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ZipTest.DOSDateTimeTest, ZipTest" name="GetBitsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="74de8c0d-46f3-3330-b474-6b68b8f2f14f" executionId="54e66723-0652-4d10-a715-2301e94d4233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="54e66723-0652-4d10-a715-2301e94d4233" testId="74de8c0d-46f3-3330-b474-6b68b8f2f14f" testName="GetBitsTest" computerName="HANK" duration="00:00:00.2129156" startTime="2008-08-30T22:59:19.9602356+01:00" endTime="2008-08-30T22:59:20.5812896+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at ZipTest.DOSDateTimeTest.GetBitsTest() in C:\Users\Neill Harper\Documents\Visual Studio 2008\Projects\ZipFramework\ZipTest\DOSDateTimeTest.cs:line 165
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
